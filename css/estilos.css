@@ -2,13 +2,15 @@ body{
     
     padding:40px;
     margin: auto;
-    background-color: #4df778;
+  background-color: #63f38e;
     font-size: 25px;
   }
+  
  
 h1 { 
     background-color: #5beffa  ; 
     Text-align: Centro;
+    border-radius: 10px;
   } 
 
 .calculadora { 
@@ -34,11 +36,12 @@ overflow: hidden;}
  .calculadora input.largo { color: rgb(132, 74, 240); width: 160px; }
 
  .calculadora [type=button]:hover{
-              background-color: rgb(117, 230, 51);
+              background-color: rgb(121, 241, 141);
  }
 
+ @media (max-width: 480px) {
 
-
-
-
- 
+ }
+  
+    
+  
